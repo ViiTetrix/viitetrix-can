@@ -1,0 +1,21 @@
+/* src/styles/custom.css */
+
+  /* 默认状态 (没有 .dark 类，即浅色模式) */
+  /* 隐藏暗色图片 */
+  .site-title-image-dark {
+    display: none;
+  }
+  /* 显示浅色图片 */
+  .site-title-image-light {
+    display: block;
+  }
+  
+  /* 当 <html> 标签拥有 .dark 类时 (由主题的JS在切换时添加) */
+  /* 显示暗色图片 */
+  html.dark .site-title-image-dark {
+    display: block;
+  }
+  /* 隐藏浅色图片 */
+  html.dark .site-title-image-light {
+    display: none;
+  }
