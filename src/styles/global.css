@@ -82,3 +82,16 @@ html.dark .code-copy-button.copy-success {
 .code-copy-button svg path {
   --at-apply: 'pointer-events-none';
 }
+
+/* 代码块自动换行并移除滚动条 */
+pre {
+  white-space: pre-wrap; /* 允许在保留空白符的同时进行换行 */
+  word-wrap: break-word; /* 在长单词或 URL 内部进行换行 */
+  overflow-x: auto; /* 当内容确实非常宽时，仍然可以滚动，但通常不需要了 */
+}
+
+/* 针对 pre 元素内的 code 元素进行优化 */
+pre code {
+  white-space: pre-wrap;       /* 确保继承换行规则 */
+  word-wrap: break-word;       /* 同样应用单词换行 */
+}
