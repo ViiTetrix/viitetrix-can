@@ -19,4 +19,15 @@
   html.dark .site-title-image-light {
     display: none;
   }
-  
+
+
+
+/*
+ * Heti 间距最终版：
+ * 为包裹英文的 heti-spacing 元素左右两边都添加外边距，
+ * 完美处理 CJK -> Latin -> CJK 的混排场景。
+*/
+heti-spacing {
+  display: inline-block;
+  margin: 0 0.4em; /* 上下边距为0，左右边距为0.4em */
+}

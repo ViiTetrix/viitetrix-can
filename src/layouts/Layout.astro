@@ -62,5 +62,12 @@ const MarginBottom = isPost && themeConfig.comment?.enabled
     <GithubCard />
     <MediaEmbed />
     <ImageZoom />
+
+    <script is:inline src="//unpkg.com/heti/umd/heti-addon.min.js"></script>
+    <script is:inline>
+      const heti = new Heti('.heti');
+      heti.autoSpacing();
+    </script>
+    
   </body>
 </html>
