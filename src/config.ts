@@ -17,7 +17,7 @@ export const themeConfig: ThemeConfig = {
     url: 'https://blog.viitetrix.com',
     // favicon url
     // recommended formats: svg, png or ico
-    favicon: '/icons/favicon.png', // or https://example.com/favicon.svg
+    favicon: '/icons/viitetrix.svg', // or https://example.com/favicon.svg
   },
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
 
